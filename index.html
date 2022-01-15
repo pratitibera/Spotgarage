@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>SPOT GARAGE</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="icon" href="" type="image/x-icon" />
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <link rel="stylesheet" href="css/styles.css">
+      <link rel="stylesheet" href="css/responsive.css">
+      <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+   </head>
+   <body>
+      <!-- Topmost menu bar starts-->
+      <div class="header fixed-top">
+         <div class="row m-0">
+            <div class="col-12 col-sm-2">
+               <img src="img/logo.jpg" class="w-100">
+            </div>
+            <div class="col-0 col-sm-5"></div>
+            <div class="col-8 col-sm-3 m-auto mt-2 mt-sm-auto">
+               <button class="btn bg-red text-white mfo-14">New Customer Registration</button>
+            </div>
+            <div class="col-2 col-sm-1 mt-2 m-sm-auto p-0 text-center">
+               <i class="fas fa-bell bco fo-36"></i>
+               <div class="fo-14 mfo-12">Notification</div>
+            </div>
+            <div class="col-2 col-sm-1 mt-2 m-sm-auto p-0 text-center">
+               <i class="fas fa-power-off bg-red text-white fo-22 br-50 p-2"></i>
+               <div class="fo-14 mfo-12">Logout</div>
+            </div>
+         </div>
+      </div>
+      <!-- Topmost menu bar ends-->
+      <section class="min-height">
+         <div class="padded-body">
+            <div class="row m-0">
+               <div class="col-12 col-sm-12 text-center p-0">
+                  <div class="searchbox">
+                     <input type="text" placeholder="Search">
+                     <i class="fa fa-search"></i>
+                     <div class="fo-14 mfo-12 mt-2">Customer Data Search Box</div>
+                  </div>
+               </div>
+            </div>
+            <div class="row m-0 mt-sm-4">
+               <div class="custom_input">
+                  <input type="date">
+                  <div class="fo-14 mfo-12 mt-2 text-center">Date</div>
+               </div>
+               <div class="custom_input">
+                  <select>
+                     <option>Patna</option>
+                     <option>Kolkata</option>
+                     <option>Delhi</option>
+                  </select>
+                  <div class="fo-14 mfo-12 mt-2 text-center">Location</div>
+               </div>
+               <div class="custom_input">
+                  <input type="number">
+                  <div class="fo-14 mfo-12 mt-2 text-center">Under servicing</div>
+               </div>
+               <div class="custom_input">
+                  <input type="number">
+                  <div class="fo-14 mfo-12 mt-2 text-center">Ready for delivery</div>
+               </div>
+               <div class="custom_input">
+                  <input type="number">
+                  <div class="fo-14 mfo-12 mt-2 text-center">Completed service</div>
+               </div>
+            </div>
+         </div>
+
+         <div class="container-fluid">
+            <div class="table-responsive">
+               <table class="table table-bordered">
+                  <thead>
+                     <tr>
+                        <th>ID</th>
+                        <th>DATE</th>
+                        <th>CUSTOMER NAME</th>
+                        <th>VEHICLE NAME</th>
+                        <th>VEHICLE NUMBER</th>
+                        <th>KILOMETER READING</th>
+                        <th>LUBRICANT USED</th>
+                        <th>MOBILE NUMBER</th>
+                        <th>TECHNICIAN</th>
+                        <th>CUSTOMER SOURCE</th>
+                        <th class="bg-red">ESTIMATION</th>
+                        <th class="bg-red">DUE</th>
+                        <th class="bg-red">PAYMENTS</th>
+                        <th class="bg-red">READY</th>
+                        <th class="bg-red">BILL INVOICE</th>
+                     </tr>
+                  </thead>
+                  <tbody>
+                     <tr>
+                        <td colspan="15" class="fw-600 fo-24 text-center">No Data Available</td>
+                     </tr>
+                  </tbody>
+               </table>
+            </div>
+         </div>
+      </section>
+
+      <footer class="bg-red p-2 pt-3 pb-3">
+         <div class="row m-0">
+            <div class="col-5 col-sm-2 p-0">
+               <div><i class="fas fa-phone-alt bg-white bco fo-14 br-50 p-2 mr-2"></i>6200802323</div>
+            </div>
+            <div class="col-7 col-sm-8 p-0">
+               <div><i class="far fa-envelope bg-white bco fo-14 br-50 p-2 mr-2"></i>support@spotgarage.in </div>
+            </div>
+            <div class="col-12 col-sm-2 p-0 text-center mt-2 mt-sm-0">
+               <div>Powered by- Spotgarage</div>
+            </div>
+         </div>
+      </footer>
+     
+      <script src="js/jquery.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <script src="js/main.js"></script>
+   </body>
+</html>
